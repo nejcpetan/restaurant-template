@@ -1,9 +1,10 @@
 import { Facebook } from "lucide-react";
-import Navbar from "../components/navbar";
+import NavNoHero from "../components/navNoHero";
 
 export default function About() {
   return (
     <div>
+      <NavNoHero />
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <img
