@@ -30,7 +30,7 @@ Check out a live demo of the template: [Live Demo](https://nejcpetan.github.io/r
 To get started, clone the repository and install the necessary dependencies.
 
 ```bash
-git clone https://github.com/yourusername/restaurant-template.git
+git clone https://github.com/nejcpetan/restaurant-template.git
 cd restaurant-template
 npm install
 ```
