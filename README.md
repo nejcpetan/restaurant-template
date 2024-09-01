@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nathan's Restaurant Website Template
 
-## Getting Started
+A simple and customizable restaurant website template built with Next.js, TailwindCSS and DaisyUI. This template allows you to quickly set up a professional website for a restaurant or similar food service business.
 
-First, run the development server:
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Responsive Design:** Fully responsive and optimized for mobile, tablet, and desktop devices.
+- **Menu Display:** Easily display your restaurant's menu with sections for appetizers, main courses, desserts, and drinks.
+- **Photo Gallery:** Showcase your restaurant’s ambiance with a beautiful photo gallery.
+- **Reservation System:** Integrate a third-party reservation system or use a contact form for booking.
+- **Social Media:** Link to your restaurant's social media profiles.
+- **SEO Friendly:** Basic SEO optimization to help your website rank better on search engines.
+
+## Demo
+
+Check out a live demo of the template: [Live Demo](https://nejcpetan.github.io/restaurant/template)
+
+## Installation
+
+To get started, clone the repository and install the necessary dependencies.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/restaurant-template.git
+cd restaurant-template
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+After installation, you can start the development server to see the template in action:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm start
+```
 
-## Learn More
+This will start a local server and open the template in your default web browser. You can make changes and see them reflected in real-time.
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This template is designed to be easy to customize. Here are a few things you might want to adjust:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Branding:** Replace the logo and name with your restaurant’s branding in the `Navbar` component.
+- **Colors:** Update the colors in the `styles` directory to match your restaurant's theme.
+- **Content:** Replace the placeholder text and images with your restaurant’s content.
+- **Menu Items:** Edit the `Menu` component to display your actual menu items.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+```
+
+```
