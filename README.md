@@ -68,6 +68,6 @@ If you'd like to contribute to this project, please fork the repository and use 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-```
-
+```bash
+Currently creating the Figma design, so I wont use up too much of my time :).
 ```
