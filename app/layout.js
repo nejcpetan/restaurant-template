@@ -1,6 +1,6 @@
 import { Inter, WindSong } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navhero";
+import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="background-image {inter.className}">
+        <Navbar />
         {children}
         <Footer />
         <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
