@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html data-theme="black" lang="en">
+    <html className="scroll-smooth" data-theme="black" lang="en">
       <head>
         <link rel="icon" href="app/favicon.ico" />
       </head>
@@ -21,7 +21,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );

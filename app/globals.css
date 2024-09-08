@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.html {
-  background-color: rgb(28, 90, 145);
+.html, body {
+  background-color: #DEE9F1;
+  overflow-x: hidden;
 }
 
 :root {
