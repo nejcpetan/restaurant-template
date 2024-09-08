@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="grid place-items-center mt-[7.13rem]">
-      <div className="w-full md:w-[60rem]">
+      <div className="w-full w-[22.1875rem] md:w-[60rem]">
         <h1
           id="about"
           className="text-5xl text-center font-bold mr-[1rem] ml-[1rem]"

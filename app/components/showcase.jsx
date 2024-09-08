@@ -11,11 +11,11 @@ export default function Showcase() {
       </h1>
       <div className="flex justify-center mt-[1.75rem]">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-3 w-full max-w-6xl px-4">
-          <div>
-            <Card className="bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
+          <div className="drop-shadow-2xl">
+            <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
                 <img
-                  className="w-[9.38rem] h-auto"
+                  className="w-[12rem] h-auto"
                   src="/calamari-section.png"
                   alt="Calamari"
                 />
@@ -33,11 +33,11 @@ export default function Showcase() {
             </Card>
           </div>
 
-          <div>
-            <Card className="bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
+          <div className="drop-shadow-2xl">
+            <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
                 <img
-                  className="w-[9.38rem] h-auto"
+                  className="w-[12rem] h-auto"
                   src="/pizza-section.png"
                   alt="Pizza"
                 />
@@ -54,11 +54,11 @@ export default function Showcase() {
             </Card>
           </div>
 
-          <div>
-            <Card className="bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
+          <div className="drop-shadow-2xl">
+            <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
                 <img
-                  className="w-[9.38rem] h-auto"
+                  className="w-[12rem] h-auto"
                   src="/crepes-section.png"
                   alt="Desserts"
                 />

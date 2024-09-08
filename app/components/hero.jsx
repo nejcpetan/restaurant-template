@@ -20,14 +20,14 @@ export default function Hero() {
             pizza!
           </h1>
           <Link href="#menu">
-            <Button className="flex items-center justify-center mt-[1.63rem] rounded-full w-[9.25rem] h-[3.19rem]">
+            <Button className="shadow-2xl flex items-center justify-center mt-[1.63rem] rounded-full w-[9.25rem] h-[3.19rem]">
               Menu
             </Button>
           </Link>
         </div>
         <div className="m-[1.9375rem] md:mr-[4.375rem] flex items-center justify-center h-full">
           <img
-            className="w-[28.56rem] h-auto"
+            className="drop-shadow-xl w-[28.56rem] h-auto"
             src="/AdobeStock_602785827.png"
             alt="logo"
           />
