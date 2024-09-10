@@ -27,8 +27,8 @@ export default function Showcase() {
               <CardContent>
                 <p>
                   Crispy, golden calamari served with a zesty lemon aioli.
-                  Perfectly seasoned and tender, it's a seafood lover's delight
-                  with every bite.
+                  Perfectly seasoned and tender, it&apos;s a seafood
+                  lover&apos;s delight with every bite.
                 </p>
               </CardContent>
             </Card>
