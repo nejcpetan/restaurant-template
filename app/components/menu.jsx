@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Menu() {
   return (
     <div>
@@ -5,7 +7,7 @@ export default function Menu() {
         Menu
       </h1>
       <div className=" flex items-center justify-center w-full">
-        <img
+        <Image
           className="w-[51.38rem] h-auto rounded"
           src="/menu-restaurant.png"
           alt="food menu"

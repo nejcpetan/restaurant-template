@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -26,7 +27,7 @@ export default function Hero() {
           </Link>
         </div>
         <div className="m-[1.9375rem] md:mr-[4.375rem] flex items-center justify-center h-full">
-          <img
+          <Image
             className="drop-shadow-xl w-[28.56rem] h-auto"
             src="/AdobeStock_602785827.png"
             alt="logo"

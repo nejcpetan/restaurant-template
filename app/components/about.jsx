@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="grid place-items-center mt-[7.13rem]">
@@ -32,7 +34,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2 flex justify-center items-center">
             <div className="relative w-[25.06rem] aspect-square overflow-hidden rounded">
-              <img
+              <Image
                 className="absolute inset-0 object-cover w-full h-full"
                 src="/la-restaurante-front-facade.webp"
                 alt="logo"

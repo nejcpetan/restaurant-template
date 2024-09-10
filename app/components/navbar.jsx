@@ -3,6 +3,7 @@ import { Pizza, Phone } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center">
             <Pizza className="w-7 h-7 mr-2" />
-            <img
+            <Image
               className="w-[15.0625rem]"
               src="/logo/png/logo-no-background.png"
               alt="logo"
@@ -28,7 +29,7 @@ const Navbar = () => {
           {/* Burger Menu for Mobile */}
           <div className="md:hidden">
             <button onClick={toggleMenu}>
-              <img
+              <Image
                 src={
                   menuOpen
                     ? "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXgiPjxwYXRoIGQ9Ik0xOCA2IDYgMTgiLz48cGF0aCBkPSJtNiA2IDEyIDEyIi8+PC9zdmc+"
