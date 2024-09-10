@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import Image from "next/image";
 
 export default function Showcase() {
   return (
@@ -14,7 +15,7 @@ export default function Showcase() {
           <div className="drop-shadow-2xl">
             <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
-                <img
+                <Image
                   className="w-[12rem] h-auto"
                   src="/calamari-section.png"
                   alt="Calamari"
@@ -36,7 +37,7 @@ export default function Showcase() {
           <div className="drop-shadow-2xl">
             <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
-                <img
+                <Image
                   className="w-[12rem] h-auto"
                   src="/pizza-section.png"
                   alt="Pizza"
@@ -57,7 +58,7 @@ export default function Showcase() {
           <div className="drop-shadow-2xl">
             <Card className="opacity-95 bg-zinc-900 text-white md:h-[35rem] lg:h-[30rem]">
               <div className="flex justify-center p-4">
-                <img
+                <Image
                   className="w-[12rem] h-auto"
                   src="/crepes-section.png"
                   alt="Desserts"
